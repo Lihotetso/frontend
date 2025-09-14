@@ -1,0 +1,46 @@
+.reporting-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reporting-container h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.stock-table,
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.stock-table th,
+.stock-table td,
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.stock-table th,
+.transaction-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.stock-table tr:nth-child(even),
+.transaction-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stock-table tr:hover,
+.transaction-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.low-stock {
+  background-color: #fff3cd;
+}
